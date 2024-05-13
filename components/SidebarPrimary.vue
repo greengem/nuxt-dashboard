@@ -2,11 +2,11 @@
     <aside class="fixed w-16 top-16 bottom-0 left-0 bg-ctp-crust flex flex-col justify-between overflow-y-scroll no-scrollbar">
       <ul class="flex flex-col gap-5 py-5 items-center">
         <li v-for="link in links" :key="link.name">
-          <a :href="link.path"
+          <NuxtLink :href="link.path"
              :class="{ 'text-ctp-mauve': route.path === link.path, 'text-ctp-text': route.path !== link.path }"
              class="hover:text-ctp-mauve">
              <Icon :name="link.icon" size="28" />
-          </a>
+          </NuxtLink>
         </li>
       </ul>
       <ul class="flex flex-col gap-5 py-5 items-center">
