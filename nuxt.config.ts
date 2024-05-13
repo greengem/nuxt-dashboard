@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    // Existing API key
+    openWeatherApiKey: process.env.OPENWEATHER_API_KEY,
+    windyMapApiKey: process.env.WINDY_MAP_API_KEY,
+  },
 })
