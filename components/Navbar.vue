@@ -3,7 +3,7 @@
 
     <div class="flex items-center gap-2 mx-4 text-ctp-mauve">
       <Icon name="tabler:tools" size="28" />
-      <NuxtLink href="#" class="text-2xl tracking-tight font-light">ACME.TM</NuxtLink>
+      <NuxtLink href="/" class="text-2xl tracking-tight font-light">ACME.TM</NuxtLink>
     </div>
 
     <div class="p-5 flex items-center">
