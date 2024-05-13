@@ -1,13 +1,7 @@
-<template>
-  <NuxtLayout>
-    <Navbar />
-    <div class="p-5">
-      <NuxtPage />
-    </div>
-  </NuxtLayout>
-</template>
-
 <script setup lang="ts">
+
+  import '~/assets/css/main.css'
+
   useHead({
     title: 'Nuxt Personal Dashboard',
     meta: [
@@ -18,3 +12,12 @@
     }
   })
 </script>
+
+<template>
+  <Navbar />
+  <NuxtLayout>
+    <div class="p-5">
+      <NuxtPage />
+    </div>
+  </NuxtLayout>
+</template>
